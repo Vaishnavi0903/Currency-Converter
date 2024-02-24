@@ -60,5 +60,3 @@ btn.addEventListener("click" , async (evt) =>
     let finalAmt = amtValue * rate;
     msg.innerText = `${amtValue} ${fromCurr.value} = ${finalAmt} ${toCurr.value}`;
 })
-
-console.log("hello")
